@@ -9,13 +9,7 @@
 <body>
         @yield('content')
 
-        @section('sidebar')
-            <div class="sidebar">
-                <h3>Sidebar</h3>
-                This is a side bar
-                @show
-
-            </div>
+        @include('Inc.sidebar')
 </body>
 </html>
 
